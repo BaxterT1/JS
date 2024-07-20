@@ -1,3 +1,25 @@
+function display_10_first_integers() 
+{
+
+    for(var i = 0; i <= 10; i++) console.log("i = " + i);
+
+}
+
+display_10_first_integers(); 
+
+function add_first_10_numbers(){
+
+    var total = 0;
+
+    for (var i = 0; i <= 10; i++) total += i;
+    
+    return total;
+
+}
+
+var total = add_first_10_numbers();
+console.log("Total = " + total);
+
 function add_first_n_numbers(n){
 
     var total = 0;
